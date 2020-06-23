@@ -1,6 +1,6 @@
 package: QualityControl
 version: "%(tag_basename)s"
-tag: v0.26.2
+tag: v0.26.test
 requires:
   - boost
   - "GCC-Toolchain:(?!osx)"
@@ -15,7 +15,7 @@ requires:
 build_requires:
   - CMake
   - CodingGuidelines
-source: https://github.com/AliceO2Group/QualityControl
+source: https://github.com/knopers8/QualityControl
 prepend_path:
   ROOT_INCLUDE_PATH: "$QUALITYCONTROL_ROOT/include"
 incremental_recipe: |
